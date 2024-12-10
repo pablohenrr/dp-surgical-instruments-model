@@ -1,6 +1,6 @@
 # **Surgical Instrument Detection**
 
-O **DP-Surgical-Instruments-Model** é um projeto focado na detecção em tempo real de instrumentos cirúrgicos utilizando técnicas de aprendizado profundo. Esse modelo pode ser utilizado em salas de cirurgia para rastreamento de ferramentas, auxiliando na gestão eficiente dos instrumentos e melhorando os fluxos de trabalho cirúrgicos.
+O **DP-Surgical-Instruments-Model** é um projeto focado na detecção em tempo real de instrumentos cirúrgicos utilizando técnicas de Deep Learning. Esse modelo pode ser utilizado em salas de cirurgia para rastreamento de ferramentas, auxiliando na gestão eficiente dos instrumentos e melhorando os fluxos de trabalho cirúrgicos.
 
 ![Model Overview](project/image.png)
 
