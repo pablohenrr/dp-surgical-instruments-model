@@ -15,9 +15,7 @@ O **DP-Surgical-Instruments-Model** é um projeto focado na detecção em tempo 
 - [Real-Time Detection Execution](#real-time-detection-execution)
 - [Environment Variables](#environment-variables)
 - [Dependencies](#dependencies)
-
----
-
+  
 ## **Overview**
 
 **DP-Surgical-Instruments-Model** utiliza o modelo **YOLOv8** para detectar instrumentos cirúrgicos em tempo real a partir de vídeos. Ele processa vídeos e fornece informações sobre a detecção para aumentar a eficiência cirúrgica e reduzir erros.
@@ -28,8 +26,6 @@ O **DP-Surgical-Instruments-Model** é um projeto focado na detecção em tempo 
 3. Visualização de matrizes de confusão, curvas de precisão-recall e previsões.
 4. Pipeline de treinamento personalizável para novos datasets.
 
----
-
 ## **Architecture**
 
 A arquitetura do projeto inclui os seguintes componentes:
@@ -38,8 +34,6 @@ A arquitetura do projeto inclui os seguintes componentes:
 - **Modelo YOLOv8**: Modelo pré-treinado YOLOv8 para detecção de objetos.
 - **Execução em Tempo Real**: Scripts Python para realizar a detecção em vídeos em tempo real.
 - **Avaliação**: Saídas visuais como matrizes de confusão, curvas PR e previsões.
-
----
 
 ## **Dataset**
 
@@ -54,8 +48,6 @@ O dataset utilizado foi obtido do **Kaggle**, contendo imagens já rotuladas de 
 - **Matriz de Confusão**: `runs/detect/surgical_instruments_416/confusion_matrix.png`
 - **Curva PR**: `runs/detect/surgical_instruments_416/PR_curve.png`
 - **Previsões**: `runs/detect/surgical_instruments_416/train_batch0.jpg`
-
----
 
 ## **Installation**
 
@@ -88,8 +80,6 @@ mkdir data
 # Adicione o vídeo na pasta, por exemplo, video.mp4
 ```
 
----
-
 ## **Configuration**
 
 Certifique-se de que a estrutura do projeto inclui:
@@ -105,8 +95,6 @@ Use um arquivo `.env` para configurar variáveis de ambiente:
 MODEL_WEIGHTS=yolov8n.pt
 VIDEO_PATH=data/video.mp4
 ```
-
----
 
 ## **Project Structure**
 
@@ -136,8 +124,6 @@ DP-SURGICAL-INSTRUMENTS-MODEL/
 └── yolov8n.pt               # Pesos do modelo YOLOv8
 ```
 
----
-
 ## **Real-Time Detection Execution**
 
 Para executar o script de detecção em tempo real no vídeo `video.mp4`, use o comando:
@@ -150,8 +136,6 @@ python scripts/real_time_model_execution.py
 
 O script processa o vídeo quadro a quadro e exibe os instrumentos detectados em tempo real. O resultado é salvo como `output_video.avi` com os bounding boxes desenhados nos instrumentos detectados.
 
----
-
 ## **Environment Variables**
 
 Para configurar o projeto dinamicamente, utilize variáveis de ambiente no arquivo `.env`:
@@ -161,8 +145,6 @@ MODEL_WEIGHTS=yolov8n.pt
 VIDEO_PATH=data/video.mp4
 OUTPUT_VIDEO=output_video.avi
 ```
-
----
 
 ## **Dependencies**
 
@@ -180,8 +162,6 @@ python-dotenv
 ```bash
 pip install -r requirements.txt
 ```
-
----
 
 ## **Conclusão**
 
