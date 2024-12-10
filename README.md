@@ -1,5 +1,3 @@
----
-
 # **Surgical Instrument Detection**
 
 O **DP-Surgical-Instruments-Model** é um projeto focado na detecção em tempo real de instrumentos cirúrgicos utilizando técnicas de aprendizado profundo. Esse modelo pode ser utilizado em salas de cirurgia para rastreamento de ferramentas, auxiliando na gestão eficiente dos instrumentos e melhorando os fluxos de trabalho cirúrgicos.
@@ -188,5 +186,3 @@ pip install -r requirements.txt
 ## **Conclusão**
 
 Este projeto oferece uma solução robusta para a detecção de instrumentos cirúrgicos em tempo real utilizando o modelo **YOLOv8**. Ele foi treinado com dados públicos rotulados do **Kaggle** e é personalizável para diferentes tipos de vídeos e datasets.
-
----
