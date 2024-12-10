@@ -1,0 +1,6 @@
+train: train/images
+val: val/images
+test: test/images
+
+nc: 6
+names: ['bisturi', 'mano', 'no_objeto', 'pinzas', 'tijeras_curvas', 'tijeras_rectas']
